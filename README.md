@@ -5,7 +5,7 @@ Contains pvs-studio.pri file to enable 'pvs' target. See also [PVS-Studio](http:
 2. You could get this project as git submodule:
 
     ```
-    $ git submodule add --name qt-pvs-studio https://github.com/gilmanov-ildar/qt-pvs-studio.git src/qt-pvs-studio
+    $ git submodule add --name qt-pvs-studio https://github.com/gilmanov-ildar/qt-pvs-studio.git src/QtPvsStudio
     ```
 3. Then you could include `qt-pvs-studio.pri` file into the end of your `.pro` files.
 4. If you use `subdirs` template, just add following code to your subdirs `.pro` file:
