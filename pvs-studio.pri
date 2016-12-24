@@ -3,7 +3,7 @@ pvs_studio.output = true
 pvs_studio.cxxflags = -std=c++11
 pvs_studio.sources = $${SOURCES}
 
-SUPPRESS_WARNINGS=V122
+SUPPRESS_WARNINGS=V122,V550
 QT_INCLUDE=$$absolute_path($$dirname(QMAKE_QMAKE)/../include)
 
 PVS_CONFIG="\
